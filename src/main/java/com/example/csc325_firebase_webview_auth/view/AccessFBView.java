@@ -21,12 +21,30 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 public class AccessFBView {
 
+    public void showRegistrationForm() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/files/register.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Register");
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
+    public void showSignInForm() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("/files/signin.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Sign In");
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
 
      @FXML
     private TextField nameField;

@@ -1,0 +1,77 @@
+/* Button styling */
+.button {
+    -fx-background-color: #A0522D;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 18px; /* Adjusted to match a larger button size */
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-margin: 10px;
+    -fx-alignment: CENTER;
+}
+
+/* Menu Bar styling */
+.menu-bar {
+    -fx-background-color: #80471C;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Text Areas and Text Fields */
+.text-area, .text-field {
+    -fx-font-size: 20px;
+    -fx-padding: 10px;
+    -fx-background-color: white;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 5;
+}
+
+/* Table View styling */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #D3D3D3;
+}
+
+.table-cell {
+    -fx-background-color: #f0f0f0;
+    -fx-text-fill: black;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.column-header {
+    -fx-background-color: #D3D3D3;
+    -fx-text-fill: black;
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Table Column Header styling */
+.table-view .column-header {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-background-color: #80471C; /* Match the darker brown */
+    -fx-alignment: CENTER-LEFT;
+}
+
+/* Form container styling (for background in the form areas) */
+.form-container {
+    -fx-background-color: #228B22; /* Green background as per previous design */
+    -fx-padding: 20px;
+    -fx-border-radius: 10;
+}
+
+/* Avatar styling (image or placeholder) */
+.avatar {
+    -fx-background-color: #80471C;
+    -fx-border-color: #D3D3D3;
+    -fx-border-radius: 50%; /* If it's circular */
+    -fx-padding: 5px;
+}
+
+/* Title text styling */
+.text {
+    -fx-font-family: "Arial";
+    -fx-font-size: 48px; /* You can adjust this size */
+    -fx-fill: #80471C; /* Brown color */
+    -fx-font-weight: bold;
+}
